@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180824158614",
+    "project_id": "soul-cypher",
+    "storage_bucket": "soul-cypher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180824158614:android:6650ad6347dc7bf5cdedb7",
+        "android_client_info": {
+          "package_name": "com.example.soulcypher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP39aOmiesEU9lkFvEbjY1UDMvVqacR9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
