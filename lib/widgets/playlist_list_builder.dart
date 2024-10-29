@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:soulcypher/utils/font_styles.dart';
 
-class RecentlyPlayedSection extends StatelessWidget {
-  const RecentlyPlayedSection({super.key});
+class PlaylistsSection extends StatelessWidget {
+  const PlaylistsSection({super.key});
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 230, 
+      height: 250, // Set fixed height for Playlists section
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
         physics: BouncingScrollPhysics(),
@@ -36,12 +36,12 @@ class RecentlyPlayedSection extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Sing for the moment",
+                      "Gym",
                       style: Fontstyles.ContentTextStyle3(context),
                       overflow: TextOverflow.ellipsis,
                     ),
                     Text(
-                      "Eminem",
+                      "Abishek",
                       style: Fontstyles.ContentTextStyle3(context),
                     ),
                   ],

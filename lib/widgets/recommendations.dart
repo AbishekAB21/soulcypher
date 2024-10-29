@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:soulcypher/utils/font_styles.dart';
 
-class RecentlyPlayedSection extends StatelessWidget {
-  const RecentlyPlayedSection({super.key});
+class RecommendationsSection extends StatelessWidget {
+  const RecommendationsSection({super.key});
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 230, 
+      height: 250, 
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
         physics: BouncingScrollPhysics(),
@@ -28,7 +28,7 @@ class RecentlyPlayedSection extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
                           image: DecorationImage(
-                            image: AssetImage("assets/The_Eminem_Show.jpg"),
+                            image: AssetImage("assets/MMLP.jpg"),
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -36,7 +36,7 @@ class RecentlyPlayedSection extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      "Sing for the moment",
+                      "Kill you",
                       style: Fontstyles.ContentTextStyle3(context),
                       overflow: TextOverflow.ellipsis,
                     ),
