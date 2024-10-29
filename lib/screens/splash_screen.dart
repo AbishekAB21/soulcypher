@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:soulcypher/functions/authentication.dart';
 import 'package:soulcypher/screens/login_screen.dart';
 import 'package:soulcypher/utils/app_colors.dart';
 import 'package:soulcypher/utils/font_styles.dart';
@@ -61,6 +62,6 @@ Future<void> goHome(BuildContext context) async {
   Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => LoginScreen(),
+        builder: (context) => AuthenticationPage(),
       ));
 }
