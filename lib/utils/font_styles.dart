@@ -14,6 +14,16 @@ class Fontstyles{
       letterSpacing: 1
     );
   }
+  static TextStyle logoTextstyle2(BuildContext context){
+
+    return TextStyle(
+      fontFamily: 'Raleway',
+      fontSize: 18,
+      color: appcolor.backgroundColor,
+      fontWeight: FontWeight.w700,
+      letterSpacing: 1
+    );
+  }
 
   static TextStyle lightTextStyle(BuildContext context){
 
@@ -48,7 +58,7 @@ class Fontstyles{
     return TextStyle(
       fontFamily: 'Poppins',
       fontSize: 12,
-      color: Colors.grey.shade400,
+      color: appcolor.primaryColor,
       fontWeight: FontWeight.w400
     );
   }
@@ -68,6 +78,7 @@ class Fontstyles{
     return TextStyle(
       fontFamily: 'Poppins',
       fontSize: 20,
+      color: appcolor.primaryColor,
       fontWeight: FontWeight.w600
     );
   }
